@@ -1,0 +1,129 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #111111;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+nav li a:hover {
+    color: #e4b32b;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+.main-article {
+    background-image: url(https://rare-gallery.com/mocahbig/1372870-Tomatoes-Black-pepper-Pasta-Basil.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0px 40px 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+.main-article p,h1 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.second-section {
+    margin-top: 20px;
+}
+
+.article-1 {
+    background-image: url(https://images6.alphacoders.com/105/1052976.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0px 150px 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+.article-1 h2, p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.article-2 {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/557/8/980/food-pasta-basil-olives-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0px 150px 0px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.article-2 h2, p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.article-3 {
+    background-image: url(https://e0.pxfuel.com/wallpapers/177/394/desktop-wallpaper-pasta-pasta.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0px 150px 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+.article-3 h2, p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer div {
+    flex: 1;
+}
