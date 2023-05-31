@@ -19,9 +19,30 @@ function Btn() {
   const clickHandler = () => {
     console.log(count);
     count++;
+
+    return count;
   };
 
-  return <button onMouseOver={clickHandler}>Click me</button>;
+  return (
+    <div>
+      <button
+        onClick={function () {
+          console.log("first example");
+        }}
+      >
+        An inline anonymous ES5 function event handler
+      </button>
+      <br />
+
+      <button onClick={() => console.log("second example")}>
+        An inline anonymous ES6 function event handler
+      </button>
+      <br />
+
+      <button onClick={clickHandler}>Cart</button>
+      <button onMouseOver={clickHandler}>Click me</button>
+    </div>
+  );
 }
 
 export default Btn;

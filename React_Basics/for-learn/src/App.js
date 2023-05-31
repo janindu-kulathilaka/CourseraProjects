@@ -1,17 +1,17 @@
-import Card from "./components/Card";
-import Btn from "./components/Btn";
-
 import "./App.css";
 
 function App() {
+  function handleClick() {
+    let randomNum = Math.floor(Math.random() * 3) + 1;
+    console.log(randomNum);
+    let userInput = prompt("type a number");
+    alert(`Computer number: ${randomNum}, Your guess: ${userInput}`);
+  }
+
   return (
-    <div className="App">
-      <h1>
-        <Card messageOne="First card's h2" messageTwo="First card's h2" />
-        <Card messageOne="Second card's h2" messageTwo="Second card's h3" />
-        <Card messageOne="Third card's h2" messageTwo="Third card's h3" />
-        <Btn />
-      </h1>
+    <div>
+      <h1>Task: Add a button and handle a click event</h1>
+      <button onClick={handleClick}>Guess the number between 1 and 3</button>
     </div>
   );
 }
