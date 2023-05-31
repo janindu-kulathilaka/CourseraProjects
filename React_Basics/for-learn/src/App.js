@@ -1,10 +1,17 @@
-import Heading from "./components/Heading";
+import Card from "./components/Card";
+import Btn from "./components/Btn";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Heading name="janindu-sandeepa" message="How can I help you?" />
+      <h1>
+        <Card messageOne="First card's h2" messageTwo="First card's h2" />
+        <Card messageOne="Second card's h2" messageTwo="Second card's h3" />
+        <Card messageOne="Third card's h2" messageTwo="Third card's h3" />
+        <Btn />
+      </h1>
     </div>
   );
 }
