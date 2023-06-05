@@ -31,24 +31,10 @@
 //   );
 // }
 
-import React from "react";
-
-const MealsContext = React.createContext();
-
-const todaysMeals = ["Baked Beans", "Baked Sweet Potatoes", "Baked Potatoes"];
-
-const MealsProvider = ({ children }) => {
-  const [meals, setMealsList] = React.useState(todaysMeals);
-
-  return (
-    <MealsContext.Provider value={{ meals }}>{children}</MealsContext.Provider>
-  );
-};
-
 function App() {
   return (
     <div className="App">
-      <Main msg="I passed through the Header and the Wrapper and I reached the Button component" />
+      {/* <Main msg="I passed through the Header and the Wrapper and I reached the Button component" /> */}
     </div>
   );
 }
